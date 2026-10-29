@@ -1876,7 +1876,7 @@
 6	rey	rei	NOUN	_	_	10	obl	_	Reported=Yes
 7	de	de	ADP	_	_	8	case	_	Reported=Yes
 8	Valentia	_	PROPN	_	_	6	nmod	_	Reported=Yes
-9	an	aver	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	Reported=Yes
+9	an	aver	AUX	_	Number=Plur|Person=3|VerbForm=Fin	10	aux	_	Reported=Yes
 10	fait	faire	VERB	_	Tense=Past|VerbForm=Part	14	advcl	_	Reported=Yes
 11	aisso	aisso	PRON	_	PronType=Dem	10	obj	_	Reported=Yes
 12	,	,	PUNCT	_	_	14	punct	_	Reported=Yes

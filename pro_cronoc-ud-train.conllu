@@ -10615,7 +10615,7 @@
 30	aqui	aqui	ADV	_	_	33	orphan	_	_
 31	endreyt	endrech	ADV	_	_	30	advmod	_	_
 32	entro	entro	ADP	_	_	33	case	_	_
-33	Luc	_	PROPN	_	_	23	conj	_	_
+33	Luc	_	PROPN	_	_	23	obl	_	_
 34	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 13th_Lagrasse_460
