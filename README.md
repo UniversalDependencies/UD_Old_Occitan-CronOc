@@ -10,7 +10,7 @@ The corpus currently contains one text
 
 | Source | Train (sent) | Train (tok) | Dev (sent) | Dev (tok) | Test (sent) | Test (tok) | Total (sent) | Total (tok) |
 |--------|--------------|-------------|------------|-----------|-------------|------------|--------------|-------------|
-| CronOc | 1229 | 24,500 | 167 | 2,726 | 452 | 10,001 | 1848 | 37,227 |
+| Lagrasse | 1229 | 24,500 | 167 | 2,726 | 452 | 10,001 | 1848 | 37,227 |
 | Total | 1229 | 24,500 | 167 | 2,726 | 452 | 10,001 | 1848 | 37,227 |
 
 | Split | Sentences | Tokens | % (tokens) |
