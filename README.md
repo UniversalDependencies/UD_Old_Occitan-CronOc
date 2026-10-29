@@ -7,7 +7,6 @@ This is the first version of the CronOc Corpus
 
 The corpus currently contains one text
 
---- Markdown for UD README (copy below) ---
 
 | Source | Train (sent) | Train (tok) | Dev (sent) | Dev (tok) | Test (sent) | Test (tok) | Total (sent) | Total (tok) |
 |--------|--------------|-------------|------------|-----------|-------------|------------|--------------|-------------|
@@ -21,7 +20,6 @@ The corpus currently contains one text
 | test | 452 | 10,001 | 26.9% |
 | total | 1,848 | 37,227 | 100.0% |
 
---- End of Markdown ---
 
 
 # Acknowledgments
