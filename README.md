@@ -1,20 +1,20 @@
 # Summary
 
-... 1-2 sentences (see [release checklist](https://universaldependencies.org/contributing/repository_files.html#the-readme-file) for README guidelines) ...
+This is the first version of the CronOc Corpus
 
 
 # Introduction
 
-...
+The corpus currently contains one text
 
 
 # Acknowledgments
 
-...
+The treebank is being created as part of the BREAKTHROUGH project
 
 ## References
 
-* (citation)
+* (forthcoming)
 
 
 # Changelog
@@ -29,7 +29,7 @@ Data available since: UD v2.19
 License: CC BY-SA 4.0
 Includes text: yes
 Parallel: no
-Genre: TO-BE-SPECIFIED
+Genre: chronicle
 Lemmas: manual native
 UPOS: manual native
 XPOS: not available
