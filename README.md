@@ -39,17 +39,21 @@ The texts are annotated in PoS and syntactic functions (Universal Dependencies),
 
 # Features
 
-**Verbs and auxiliaries** have been annotated in verb forms (VerbForm): Inf (infinitive), Fin (conjugated) and Part (participle). Conjugated forms are annotated in Person (1,2,3), Number (Sing, Plur), Mood (Ind, Cdn, Sub, Imp) and Tense (Past, Present). For compound tenses, each token is annotated individually.
-
-**Participles** are annotated in Tense (Past, Pres). Please note that past participles without dependents are annotated as adjectives but are also provided with morphological features of participles (VerbForm, Tense).
-
-**Pronouns** are annotated in type (PronType: Prs, Dem, Ind, Int, Rel). Reflexive pronouns are annotated as Prs with an additional Reflexive=Yes feature. Possessive pronouns do not have a PronType feature but have the feature Poss=Yes. Possessives have Number[psor] and Person[psor] features whenever applicable.
-
-**Determiners** are annotated in type (PronType: Art, Dem, Ind, Int, Rel). Articles can be definite (Definite=Def) or indefinite (Definite=Ind). Determiners can have Number and Gender features. Possessive determiners have no PronType feature but have Poss=Yes feature. Possessives have Number[psor] and Person[psor] features whenever applicable.
-
-**Possessive adjectives** have Poss=Yes feature.
-
-Tokens with **negative polarity** (that belong to ADJ, ADV, CCONJ, DET and PRON categories) have Polarity=Neg feature.
+Features used:
+VerbForm: Inf/Fin/Part
+Mood: Ind/Cdn/Sub/Imp
+Tense: Past/Present/Future
+Person: 1/2/3
+Number: Sing/Plur
+Gender: Fem/Masc
+Poss: Yes
+Number[psor]: Sing/Plur
+Person[psor]: 1/2/3
+Reflexive: Yes
+PronType: Art/Prs/Dem/Ind/Int/Rel
+Definite: Def/Ind
+Polarity: Neg
+Please note that past participles without dependents are annotated as adjectives but are also provided with morphological features of participles (VerbForm, Tense).
 
 # Lemmatization
 
