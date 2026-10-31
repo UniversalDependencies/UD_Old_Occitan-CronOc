@@ -49,7 +49,7 @@ The texts are annotated in PoS and syntactic functions (Universal Dependencies),
 
 **Demonstrative pronouns**, wherever possible, are annotated in Number (Sing, Plur) and Gender (Masc, Fem). 
 
-**Indefinite pronouns** are annotated, wherever possible, in Number (Sing, Plur) and Gender (Masc, Fem).**
+**Indefinite pronouns** are annotated, wherever possible, in Number (Sing, Plur) and Gender (Masc, Fem).
 
 **Relative pronoun** "cal" has Number feature, other relatives have nono further morphological annotation at present.
 
