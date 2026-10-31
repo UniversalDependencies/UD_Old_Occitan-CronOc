@@ -44,7 +44,7 @@ The texts are annotated in PoS and syntactic functions (Universal Dependencies),
 | Tense | Past/Pres/Fut |
 | Person | 1/2/3 |
 | Number | Sing/Plur |
-| Pererson[[psor] | 1/2/3 |
+| Person[[psor] | 1/2/3 |
 | Number[psor] | Sing/Plur |
 | Poss | Yes |
 | Reflexive | Art/Prs/Dem/Ind/Int/Rel |
