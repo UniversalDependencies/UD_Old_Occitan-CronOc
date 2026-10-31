@@ -8,9 +8,11 @@ Please note that CronOc treebank is still under development. A campaign of revis
 
 The corpus currently contains one text, late-thirteenth-century Old Languedocian version of [_Gesta Caroli Magni as Carcassonam et ad Narbonam_](https://www.arlima.net/mp/notre_dame_de_lagrasse.html), known as [_Le Roman de Lagrasse_, or _Le roman de Philomena_](https://www.arlima.net/mp/notre_dame_de_lagrasse/oc_le_roman_de_philomena.html). This is a medieval prose chronicle narrating the legendary events of the foundation of the [Notre Dame de Lagrasse abbey](https://fr.wikipedia.org/wiki/Abbaye_Sainte-Marie_de_Lagrasse) by Emperor Charlemagne.
 
-Two medieval (14th century) manuscripts of the _Roman de Lagrasse_ are extant: the A manuscript (Aix-en-Provence, Biliothèque Méjane, 424 (143)) that lacks the beginning and the end, and the B manuscript (London, BL, Add. 21218) that has the complete text.
+Two 14th century manuscripts:
+A - Aix-en-Provence, Biliothèque Méjane, 424 (143), lacks the beginning and the end
+B - London, BL, Add. 21218, complete
 
-Two editions of the _Roman de Lagrasse_ exist:
+Editions:
 
 Schneegans, Fréderic-Edouard (1898) _Gesta Karoli Magni ad Carcassonam et Narbonam. Lateinischer Text und provenzalische Übersetzung mit Einleitung_. Halle: Niemeyer (Romanische Bibliothek, 15).
 
@@ -39,21 +41,21 @@ The texts are annotated in PoS and syntactic functions (Universal Dependencies),
 
 # Features
 
-Features used:
-VerbForm: Inf/Fin/Part
-Mood: Ind/Cdn/Sub/Imp
-Tense: Past/Present/Future
-Person: 1/2/3
-Number: Sing/Plur
-Gender: Fem/Masc
-Poss: Yes
-Number[psor]: Sing/Plur
-Person[psor]: 1/2/3
-Reflexive: Yes
-PronType: Art/Prs/Dem/Ind/Int/Rel
-Definite: Def/Ind
-Polarity: Neg
-Please note that past participles without dependents are annotated as adjectives but are also provided with morphological features of participles (VerbForm, Tense).
+| feat | values | 
+|-------|-----------|
+| VerbForm | Inf/Fin/Part |
+| Mood | Ind/Cdn/Sub/Imp |
+| Tense | Past/Pres/Fut |
+| Person | 1/2/3 |
+| Number | Sing/Plur |
+| Pererson[[psor] | 1/2/3 |
+| Number[psor] | Sing/Plur |
+| Poss | Yes |
+| Reflexive | Art/Prs/Dem/Ind/Int/Rel |
+| Definite | Def/Ind |
+| Polarity | Neg |
+
+Past participles without dependents are annotated as adjectives but are also provided with morphological features of participles (VerbForm, Tense).
 
 # Lemmatization
 
