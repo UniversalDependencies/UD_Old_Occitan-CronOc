@@ -41,19 +41,21 @@ The corpus was automatically annotated with [BertForDeprel](https://github.com/k
 
 The texts are annotated in PoS and syntactic functions (Universal Dependencies), following, wherever possible, the guidelines for Modern Occitan ([Miletić et al 2020](https://hal.science/hal-04925754v1)).
 
-In addition, starting with the 2.18 release, verbs and auxiliaries have been annotated in verb forms (VerbForm): Inf (infinitive), Fin (conjugated) and Part (participle). Conjugated forms are annotated in Person (1,2,3) and Number (Sing, Plur). Participles are annotated in Tense (Past, Pres, Fut), Gender (Masc, Fem) and Number (Sing, Plur). The annotation in features follows the form of the the token (i.e., forms with no agreement in Gender or Number were annotated as masculine singular). 
+**Features**
 
-Please note that participles without dependents are annotated as adjectives but are also provided with morphological features of participles (VerbForm, Tense, Gender, Number).
+Verbs and auxiliaries have been annotated in verb forms (VerbForm): Inf (infinitive), Fin (conjugated) and Part (participle). Conjugated forms are annotated in Person (1,2,3), Number (Sing, Plur), Mood (Ind, Cdn, Sub, Imp) and Tense (Past, Present). For compound tenses, each token is annotated individually.
 
-Pronouns are annotated in type (PronType: Prs, Dem, Ind, Rel). Reflexive pronouns are annotated as Prs with an additional Reflexive=Yes feature. Possessive pronouns have the feature Poss=Yes.
+Participles are annotated in Tense (Past, Pres). Please note that past participles without dependents are annotated as adjectives but are also provided with morphological features of participles (VerbForm, Tense).
+
+Pronouns are annotated in type (PronType: Prs, Dem, Ind, Int, Rel). Reflexive pronouns are annotated as Prs with an additional Reflexive=Yes feature. Possessive pronouns do not have a PronType feature but have the feature Poss=Yes.
 
 Personal pronouns are annotated in Person (1,2,3) and, wherever possible, Number (Sing, Plur), Gender (Masc, Fem, Neut). Neut is used for the pronoun "o".
 
-Demonstrative pronouns are annotated in Number (Sing, Plur) and Gender (Masc, Fem, Neut). Neut is used for pronouns ço (so), ac (ag) and aquet. 
+Demonstrative pronouns, wherever possible, are annotated in Number (Sing, Plur) and Gender (Masc, Fem). 
 
 Indefinite pronouns are annotated, wherever possible, in Number (Sing, Plur) and Gender (Masc, Fem).
 
-Relative pronouns have no further morphological annotation at present.
+Relative pronoun have no further morphological annotation at present.
 
 Tokens with negative polarity (that belong to ADJ, ADP, ADV, CCONJ, DET and PRON categories) have Polarity=Neg feature.
 
