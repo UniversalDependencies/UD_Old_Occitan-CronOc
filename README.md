@@ -47,7 +47,7 @@ Verbs and auxiliaries have been annotated in verb forms (VerbForm): Inf (infinit
 
 Participles are annotated in Tense (Past, Pres). Please note that past participles without dependents are annotated as adjectives but are also provided with morphological features of participles (VerbForm, Tense).
 
-Pronouns are annotated in type (PronType: Prs, Dem, Ind, Int, Rel). Reflexive pronouns are annotated as Prs with an additional Reflexive=Yes feature. Possessive pronouns do not have a PronType feature but have the feature Poss=Yes.
+Pronouns are annotated in type (PronType: Prs, Dem, Ind, Int, Rel). Reflexive pronouns are annotated as Prs with an additional Reflexive=Yes feature. Possessive pronouns do not have a PronType feature but have the feature Poss=Yes. Possessives have Number[psor] and Person[psor] features whenever applicable.
 
 Personal pronouns are annotated in Person (1,2,3) and, wherever possible, Number (Sing, Plur), Gender (Masc, Fem, Neut). Neut is used for the pronoun "o".
 
@@ -55,9 +55,13 @@ Demonstrative pronouns, wherever possible, are annotated in Number (Sing, Plur) 
 
 Indefinite pronouns are annotated, wherever possible, in Number (Sing, Plur) and Gender (Masc, Fem).
 
-Relative pronoun have no further morphological annotation at present.
+Relative pronoun "cal" has Number feature, other relatives have nono further morphological annotation at present.
 
-Tokens with negative polarity (that belong to ADJ, ADP, ADV, CCONJ, DET and PRON categories) have Polarity=Neg feature.
+Determiners are annotated in type (PronType: Art, Dem, Ind, Int, Rel). Articles can be definite (Definite=Def) or indefinite (Definite=Ind). Determiners can have Number and Gender features. Possessive determiners have no PronType feature but have Poss=Yes feature. Possessives have Number[psor] and Person[psor] features whenever applicable.
+
+Possessive adjectives have Poss=Yes feature.
+
+Tokens with **negative polarity** (that belong to ADJ, ADV, CCONJ, DET and PRON categories) have Polarity=Neg feature.
 
 # Lemmatization
 
