@@ -13,7 +13,7 @@ Two editions of the _Roman de Lagrasse_ exist:
 
 Schneegans, Fréderic-Edouard (1898) _Gesta Karoli Magni ad Carcassonam et Narbonam. Lateinischer Text und provenzalische Übersetzung mit Einleitung_. Halle: Niemeyer (Romanische Bibliothek, 15).
 
-﻿Simonnet, Émile Jean (1987) _Édition critique du Roman de Notre-Dame de Lagrasse_. Thèse de doctorat, Université de Paris IV-Sorbonne. (Simonnet's edition and translation can be consulted [here](http://emile.simonnet.free.fr/sitfen/tabsom.htm)).
+﻿Simonnet, Émile Jean (1987) _Édition critique du Roman de Notre-Dame de Lagrasse_. PhD Thesis, Université de Paris IV-Sorbonne. (Simonnet's edition and translation can be consulted [here](http://emile.simonnet.free.fr/sitfen/tabsom.htm)).
 
 For CronOc corpus, we used the automatic transcription of the B manuscript from the [COMETA Corpus](https://zenodo.org/records/15300719) (Marinus Wiedner 2025) that was checked against the manuscript and manually segmented into sentences and tokens. Some corrections to the manuscript readings were introduced that are indicated in the MISC column (original=).
 
@@ -32,11 +32,19 @@ For CronOc corpus, we used the automatic transcription of the B manuscript from 
 | test | 452 | 10,001 | 26.9% |
 | total | 1,848 | 37,227 | 100.0% |
 
+The split was created using scripts that can be consulted [here](https://github.com/Corpus-Diachroniques-CRISCO/CorAG_tools).
+
+# Annotation
+
 
 
 # Acknowledgments
 
-The treebank is being created as part of the BREAKTHROUGH project
+The treebank is being created as part of the [BREAKTHROUGH project](https://crisco.unicaen.fr/projet-breakthrough/), led by Professor [Pierre Larrivée](https://www.researchgate.net/profile/Pierre-Larrivee-2) at the CRISCO Lab, University of Caen ([CaeSAR](https://caesar-project.unicaen.fr/) project, reference ANR-23-EXES-0001).
+
+Data annotation and lemmatisation was performed by [Natasha Romanova](https://cv.hal.science/natasha-romanova). Technical support: [Rayan Ziane](https://cv.hal.science/rayan-ziane).
+
+We thank [Barbara Francioni](https://cv.hal.science/barbara-francioni) and [Barbara Vance](https://linguistics.indiana.edu/about/faculty/vance-barbara.html]) for their help.
 
 ## References
 
