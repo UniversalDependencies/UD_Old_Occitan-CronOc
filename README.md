@@ -21,10 +21,6 @@ For CronOc corpus, we used the automatic transcription of the B manuscript from 
 
 # Train/Dev/Test Split
 
-| Source | Train (sent) | Train (tok) | Dev (sent) | Dev (tok) | Test (sent) | Test (tok) | Total (sent) | Total (tok) |
-|--------|--------------|-------------|------------|-----------|-------------|------------|--------------|-------------|
-| Lagrasse | 1229 | 24,500 | 167 | 2,726 | 452 | 10,001 | 1848 | 37,227 |
-| Total | 1229 | 24,500 | 167 | 2,726 | 452 | 10,001 | 1848 | 37,227 |
 
 | Split | Sentences | Tokens | % (tokens) |
 |-------|-----------|--------|------------|
