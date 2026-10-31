@@ -57,7 +57,7 @@ Relative pronouns have no further morphological annotation at present.
 
 Tokens with negative polarity (that belong to ADJ, ADP, ADV, CCONJ, DET and PRON categories) have Polarity=Neg feature.
 
-# Lemmatisation
+# Lemmatization
 
 With the exception of proper names that remain unlemmatized, the corpus was lemmatized manually using _lemmata_ from the [DOM-en-ligne](https://dom-en-ligne.de/) lemmata. For pronouns and determiners, we used singular masculine forms as lemmata. 
 
