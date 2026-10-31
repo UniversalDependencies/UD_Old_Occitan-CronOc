@@ -41,7 +41,7 @@ The corpus was automatically annotated with [BertForDeprel](https://github.com/k
 
 The texts are annotated in PoS and syntactic functions (Universal Dependencies), following, wherever possible, the guidelines for Modern Occitan ([Miletić et al 2020](https://hal.science/hal-04925754v1)).
 
-**Features**
+##Features
 
 Verbs and auxiliaries have been annotated in verb forms (VerbForm): Inf (infinitive), Fin (conjugated) and Part (participle). Conjugated forms are annotated in Person (1,2,3), Number (Sing, Plur), Mood (Ind, Cdn, Sub, Imp) and Tense (Past, Present). For compound tenses, each token is annotated individually.
 
