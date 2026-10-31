@@ -2,15 +2,11 @@
 
 This is the first version of the CronOc (Corpus of Occitan Chronicles), created as part of [BREAKTHROUGH project](https://crisco.unicaen.fr/projet-breakthrough/).
 
-Please note that CronOc treebank is still under development. A campaign of revision and morphological annotation is underway and new material is being added to the collection. The structure of the treebank is therefore likely to change in subsequent releases. Please do not hesitate to contact us if you have any questions, suggestions or comments.
+Please note that CronOc treebank is still under development. A campaign of revision and morphological annotation is underway and new material is being added to the collection. 
 
 # Introduction
 
-The corpus currently contains one text, late-thirteenth-century Old Languedocian version of [_Gesta Caroli Magni as Carcassonam et ad Narbonam_](https://www.arlima.net/mp/notre_dame_de_lagrasse.html), known as [_Le Roman de Lagrasse_, or _Le roman de Philomena_](https://www.arlima.net/mp/notre_dame_de_lagrasse/oc_le_roman_de_philomena.html). This is a medieval prose chronicle narrating the legendary events of the foundation of the [Notre Dame de Lagrasse abbey](https://fr.wikipedia.org/wiki/Abbaye_Sainte-Marie_de_Lagrasse) by Emperor Charlemagne.
-
-Two 14th century manuscripts:
-A - Aix-en-Provence, Biliothèque Méjane, 424 (143), lacks the beginning and the end
-B - London, BL, Add. 21218, complete
+The corpus currently contains one text, late-thirteenth-century Old Languedocian version of [_Gesta Caroli Magni as Carcassonam et ad Narbonam_](https://www.arlima.net/mp/notre_dame_de_lagrasse.html), known as [_Le Roman de Lagrasse_, or _Le roman de Philomena_](https://www.arlima.net/mp/notre_dame_de_lagrasse/oc_le_roman_de_philomena.html). 
 
 Editions:
 
@@ -18,7 +14,7 @@ Schneegans, Fréderic-Edouard (1898) _Gesta Karoli Magni ad Carcassonam et Narbo
 
 ﻿Simonnet, Émile Jean (1987) _Édition critique du Roman de Notre-Dame de Lagrasse_. PhD Thesis, Université de Paris IV-Sorbonne. (Simonnet's edition and translation can be consulted [here](http://emile.simonnet.free.fr/sitfen/tabsom.htm)).
 
-For CronOc corpus, we used the automatic transcription of the B manuscript from the [COMETA Corpus](https://zenodo.org/records/15300719) (Wiedner 2025) that was checked against the manuscript and manually segmented into sentences and tokens. Some corrections to the manuscript readings were introduced that are indicated in the MISC column (original=).
+For CronOc corpus, the automatic transcription of the B manuscript (London, BL, Add. 21218) from the [COMETA Corpus](https://zenodo.org/records/15300719) (Wiedner 2025) was used that was checked against the manuscript and manually segmented into sentences and tokens. Some corrections to the manuscript readings were introduced that are indicated in the MISC column (original=).
 
 
 # Train/Dev/Test Split
