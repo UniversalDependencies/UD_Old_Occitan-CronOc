@@ -16,7 +16,7 @@ Schneegans, Fréderic-Edouard (1898) _Gesta Karoli Magni ad Carcassonam et Narbo
 
 ﻿Simonnet, Émile Jean (1987) _Édition critique du Roman de Notre-Dame de Lagrasse_. PhD Thesis, Université de Paris IV-Sorbonne. (Simonnet's edition and translation can be consulted [here](http://emile.simonnet.free.fr/sitfen/tabsom.htm)).
 
-For CronOc corpus, we used the automatic transcription of the B manuscript from the [COMETA Corpus](https://zenodo.org/records/15300719) (Marinus Wiedner 2025) that was checked against the manuscript and manually segmented into sentences and tokens. Some corrections to the manuscript readings were introduced that are indicated in the MISC column (original=).
+For CronOc corpus, we used the automatic transcription of the B manuscript from the [COMETA Corpus](https://zenodo.org/records/15300719) (Wiedner 2025) that was checked against the manuscript and manually segmented into sentences and tokens. Some corrections to the manuscript readings were introduced that are indicated in the MISC column (original=).
 
 
 # Train/Dev/Test Split
