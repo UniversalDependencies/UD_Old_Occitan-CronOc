@@ -2,10 +2,11 @@
 
 This is the first version of the CronOc (Corpus of Occitan Chronicles), created as part of [BREAKTHROUGH project](https://crisco.unicaen.fr/projet-breakthrough/).
 
+Please note that CronOc treebank is still under development. A campaign of revision and morphological annotation is underway and new material is being added to the collection. The structure of the treebank is therefore likely to change in subsequent releases. Please do not hesitate to contact us if you have any questions, suggestions or comments.
 
 # Introduction
 
-The corpus currently contains one text, late-thirteenth-century Old Languedocian version of [_Gesta Caroli Magni as Carcassonam et ad Narbonnam_](https://www.arlima.net/mp/notre_dame_de_lagrasse.html), known as [_Le Roman de Lagrasse_, or _Le roman de Philomena_](https://www.arlima.net/mp/notre_dame_de_lagrasse/oc_le_roman_de_philomena.html). This is a medieval prose chronicle narrating the legendary events of the foundation of the [Notre Dame de Lagrasse abbey](https://fr.wikipedia.org/wiki/Abbaye_Sainte-Marie_de_Lagrasse) by Emperor Charlemagne.
+The corpus currently contains one text, late-thirteenth-century Old Languedocian version of [_Gesta Caroli Magni as Carcassonam et ad Narbonam_](https://www.arlima.net/mp/notre_dame_de_lagrasse.html), known as [_Le Roman de Lagrasse_, or _Le roman de Philomena_](https://www.arlima.net/mp/notre_dame_de_lagrasse/oc_le_roman_de_philomena.html). This is a medieval prose chronicle narrating the legendary events of the foundation of the [Notre Dame de Lagrasse abbey](https://fr.wikipedia.org/wiki/Abbaye_Sainte-Marie_de_Lagrasse) by Emperor Charlemagne.
 
 Two medieval (14th century) manuscripts of the _Roman de Lagrasse_ are extant: the A manuscript (Aix-en-Provence, Biliothèque Méjane, 424 (143)) that lacks the beginning and the end, and the B manuscript (London, BL, Add. 21218) that has the complete text.
 
@@ -36,7 +37,29 @@ The split was created using scripts that can be consulted [here](https://github.
 
 # Annotation
 
+The corpus was automatically annotated with [BertForDeprel](https://github.com/kirianguiller/BertForDeprel) on [ArboratorGrew](https://arborator.grew.fr/#/) portal and was subsequently manually checked. The first model was trained on the [CorAG](https://github.com/UniversalDependencies/UD_Old_Occitan-CorAG) corpus for Old Gascon and was subsequently adapted to the CronOc data using bootstrapping methodology ([Peng et al 2022](https://hal.science/hal-03846834/document), see also [Romanova et al 2025a](https://lift2-2025.sciencesconf.org/667164) and [Romanova et al 2025b](https://zenodo.org/records/17737727)).
 
+The texts are annotated in PoS and syntactic functions (Universal Dependencies), following, wherever possible, the guidelines for Modern Occitan ([Miletić et al 2020](https://hal.science/hal-04925754v1)).
+
+In addition, starting with the 2.18 release, verbs and auxiliaries have been annotated in verb forms (VerbForm): Inf (infinitive), Fin (conjugated) and Part (participle). Conjugated forms are annotated in Person (1,2,3) and Number (Sing, Plur). Participles are annotated in Tense (Past, Pres, Fut), Gender (Masc, Fem) and Number (Sing, Plur). The annotation in features follows the form of the the token (i.e., forms with no agreement in Gender or Number were annotated as masculine singular). 
+
+Please note that participles without dependents are annotated as adjectives but are also provided with morphological features of participles (VerbForm, Tense, Gender, Number).
+
+Pronouns are annotated in type (PronType: Prs, Dem, Ind, Rel). Reflexive pronouns are annotated as Prs with an additional Reflexive=Yes feature. Possessive pronouns have the feature Poss=Yes.
+
+Personal pronouns are annotated in Person (1,2,3) and, wherever possible, Number (Sing, Plur), Gender (Masc, Fem, Neut). Neut is used for the pronoun "o".
+
+Demonstrative pronouns are annotated in Number (Sing, Plur) and Gender (Masc, Fem, Neut). Neut is used for pronouns ço (so), ac (ag) and aquet. 
+
+Indefinite pronouns are annotated, wherever possible, in Number (Sing, Plur) and Gender (Masc, Fem).
+
+Relative pronouns have no further morphological annotation at present.
+
+Tokens with negative polarity (that belong to ADJ, ADP, ADV, CCONJ, DET and PRON categories) have Polarity=Neg feature.
+
+# Lemmatisation
+
+With the exception of proper names that remain unlemmatized, the corpus was lemmatized manually using _lemmata_ from the [DOM-en-ligne](https://dom-en-ligne.de/) lemmata. For pronouns and determiners, we used singular masculine forms as lemmata. 
 
 # Acknowledgments
 
