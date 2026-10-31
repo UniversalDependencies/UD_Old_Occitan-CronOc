@@ -37,6 +37,19 @@ The corpus was automatically annotated with [BertForDeprel](https://github.com/k
 
 The texts are annotated in PoS and syntactic functions (Universal Dependencies), following, wherever possible, the guidelines for Modern Occitan ([Miletić et al 2020](https://hal.science/hal-04925754v1)).
 
+# Features
+
+**Verbs and auxiliaries** have been annotated in verb forms (VerbForm): Inf (infinitive), Fin (conjugated) and Part (participle). Conjugated forms are annotated in Person (1,2,3), Number (Sing, Plur), Mood (Ind, Cdn, Sub, Imp) and Tense (Past, Present). For compound tenses, each token is annotated individually.
+
+**Participles** are annotated in Tense (Past, Pres). Please note that past participles without dependents are annotated as adjectives but are also provided with morphological features of participles (VerbForm, Tense).
+
+**Pronouns** are annotated in type (PronType: Prs, Dem, Ind, Int, Rel). Reflexive pronouns are annotated as Prs with an additional Reflexive=Yes feature. Possessive pronouns do not have a PronType feature but have the feature Poss=Yes. Possessives have Number[psor] and Person[psor] features whenever applicable.
+
+**Determiners** are annotated in type (PronType: Art, Dem, Ind, Int, Rel). Articles can be definite (Definite=Def) or indefinite (Definite=Ind). Determiners can have Number and Gender features. Possessive determiners have no PronType feature but have Poss=Yes feature. Possessives have Number[psor] and Person[psor] features whenever applicable.
+
+**Possessive adjectives** have Poss=Yes feature.
+
+Tokens with **negative polarity** (that belong to ADJ, ADV, CCONJ, DET and PRON categories) have Polarity=Neg feature.
 
 # Lemmatization
 
