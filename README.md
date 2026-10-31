@@ -5,7 +5,7 @@ This is the first version of the CronOc (Corpus of Occitan Chronicles), created 
 
 # Introduction
 
-The corpus currently contains one text, late-thirteenth-century Old Languedocian version of [_Gesta Caroli Magni as Carcassonam et ad Narbonnam_](https://www.arlima.net/mp/notre_dame_de_lagrasse.html), known as [Le Roman de Notre Dame de Lagrasse,__ _or _Le roman de Philomena_](https://www.arlima.net/mp/notre_dame_de_lagrasse/oc_le_roman_de_philomena.html). This is a medieval prose chronicle narrating the legendary events of the foundation of the [Notre Dame de Lagrasse abbey](https://fr.wikipedia.org/wiki/Abbaye_Sainte-Marie_de_Lagrasse) by Emperor Charlemagne.
+The corpus currently contains one text, late-thirteenth-century Old Languedocian version of [_Gesta Caroli Magni as Carcassonam et ad Narbonnam_](https://www.arlima.net/mp/notre_dame_de_lagrasse.html), known as [_Le Roman de Lagrasse_, or _Le roman de Philomena_](https://www.arlima.net/mp/notre_dame_de_lagrasse/oc_le_roman_de_philomena.html). This is a medieval prose chronicle narrating the legendary events of the foundation of the [Notre Dame de Lagrasse abbey](https://fr.wikipedia.org/wiki/Abbaye_Sainte-Marie_de_Lagrasse) by Emperor Charlemagne.
 
 Two medieval (14th century) manuscripts of the _Roman de Lagrasse_ are extant: the A manuscript (Aix-en-Provence, Biliothèque Méjane, 424 (143)) that lacks the beginning and the end, and the B manuscript (London, BL, Add. 21218) that has the complete text.
 
