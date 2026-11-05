@@ -2,11 +2,11 @@
 
 This is the first version of the CronOc (Corpus of Occitan Chronicles), created as part of [BREAKTHROUGH project](https://crisco.unicaen.fr/projet-breakthrough/).
 
-Please note that CronOc treebank is still under development. A campaign of revision and morphological annotation is underway and new material is being added to the collection. 
+Please note that CronOc treebank is still under development. A campaign of revision and morphological annotation is underway and new material is being added to the collection.
 
 # Introduction
 
-The corpus currently contains one text, late-thirteenth-century Old Languedocian version of [_Gesta Caroli Magni as Carcassonam et ad Narbonam_](https://www.arlima.net/mp/notre_dame_de_lagrasse.html), known as [_Le Roman de Lagrasse_, or _Le roman de Philomena_](https://www.arlima.net/mp/notre_dame_de_lagrasse/oc_le_roman_de_philomena.html). 
+The corpus currently contains one text, late-thirteenth-century Old Languedocian version of [_Gesta Caroli Magni as Carcassonam et ad Narbonam_](https://www.arlima.net/mp/notre_dame_de_lagrasse.html), known as [_Le Roman de Lagrasse_, or _Le roman de Philomena_](https://www.arlima.net/mp/notre_dame_de_lagrasse/oc_le_roman_de_philomena.html).
 
 Editions:
 
@@ -37,7 +37,7 @@ The texts are annotated in PoS and syntactic functions (Universal Dependencies),
 
 # Features
 
-| feat | values | 
+| feat | values |
 |-------|-----------|
 | VerbForm | Inf/Fin/Part |
 | Mood | Ind/Cdn/Sub/Imp |
@@ -55,7 +55,7 @@ Past participles without dependents are annotated as adjectives but are also pro
 
 # Lemmatization
 
-With the exception of proper names that remain unlemmatized, the corpus was lemmatized manually using _lemmata_ from the [DOM-en-ligne](https://dom-en-ligne.de/) lemmata. For pronouns and determiners, we used singular masculine forms as lemmata. 
+With the exception of proper names that remain unlemmatized, the corpus was lemmatized manually using _lemmata_ from the [DOM-en-ligne](https://dom-en-ligne.de/) lemmata. For pronouns and determiners, we used singular masculine forms as lemmata.
 
 # Acknowledgments
 
@@ -88,7 +88,7 @@ UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
-Contributors: Romanova, Natalia; Ziane, Rayan
+Contributors: Romanova, Natasha; Ziane, Rayan
 Contributing: here
 Contact: natalia.romanova@unicaen.fr
 ===============================================================================
