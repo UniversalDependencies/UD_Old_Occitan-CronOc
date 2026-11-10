@@ -1,0 +1,79 @@
+Running the following version of UD tools:
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 10 13:08:27 2026 +0100
+Evaluating the following revision of UD_Old_Occitan-CronOc:
+commit 879d1712622b5bbc287a8dd90a7fd9b260ca4de5
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun Nov 8 12:34:20 2026 +0100
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'pro_cronoc'
+Language code (from CoNLL-U file name) = 'pro'
+Found the following data files: pro_cronoc-ud-dev.conllu, pro_cronoc-ud-test.conllu, pro_cronoc-ud-train.conllu
+Size: counted 37227 of 37227 words (nodes).
+Size: min(0, log((N/1000)**2)) = 7.23406860892118.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Found more than 10000 training words.
+Split: Did not find at least 10000 development words.
+Split: Found at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 1.
+Universal POS tags: 14 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 1.
+Features: 14432 out of 37227 total words have one or more features.
+Features: source of annotation (from README) factor is 1.
+Universal relations: 32 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 1.
+Genres: found 1 out of 18 known.
+/net/work/people/zeman/unidep/tools/validate.py --lang pro --max-err=10 UD_Old_Occitan-CronOc/pro_cronoc-ud-dev.conllu
+[Line 44 Sent 13th_Lagrasse_1231]: [L3 WARNING pron-det-without-prontype] The word 'mo' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 74 Sent 13th_Lagrasse_1232]: [L3 WARNING pron-det-without-prontype] The word 'son' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 146 Sent 13th_Lagrasse_1234]: [L3 WARNING pron-det-without-prontype] The word 'mo' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 159 Sent 13th_Lagrasse_1235]: [L3 WARNING pron-det-without-prontype] The word 'vostra' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 352 Sent 13th_Lagrasse_1244]: [L3 WARNING pron-det-without-prontype] The word 'sieus' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 443 Sent 13th_Lagrasse_1249]: [L3 WARNING pron-det-without-prontype] The word 'son' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 470 Sent 13th_Lagrasse_1250]: [L3 WARNING pron-det-without-prontype] The word 'sos' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 505 Sent 13th_Lagrasse_1250]: [L3 WARNING pron-det-without-prontype] The word 'lors' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 548 Sent 13th_Lagrasse_1251]: [L3 WARNING pron-det-without-prontype] The word 'lor' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 671 Sent 13th_Lagrasse_1258]: [L3 WARNING pron-det-without-prontype] The word 'lor' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+Warnings: 27
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang pro --max-err=10 UD_Old_Occitan-CronOc/pro_cronoc-ud-test.conllu
+[Line 71 Sent 13th_Lagrasse_1401]: [L3 WARNING pron-det-without-prontype] The word 'son' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 258 Sent 13th_Lagrasse_1407]: [L3 WARNING pron-det-without-prontype] The word 'son' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 312 Sent 13th_Lagrasse_1409]: [L3 WARNING pron-det-without-prontype] The word 'sieus' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 338 Sent 13th_Lagrasse_1411]: [L3 WARNING pron-det-without-prontype] The word 'Vostre' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 398 Sent 13th_Lagrasse_1415]: [L3 WARNING pron-det-without-prontype] The word 'lor' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 421 Sent 13th_Lagrasse_1416]: [L3 WARNING pron-det-without-prontype] The word 'lors' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 485 Sent 13th_Lagrasse_1416]: [L3 WARNING pron-det-without-prontype] The word 'vostres' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 538 Sent 13th_Lagrasse_1417]: [L3 WARNING pron-det-without-prontype] The word 'sas' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 581 Sent 13th_Lagrasse_1418]: [L3 WARNING pron-det-without-prontype] The word 'sa' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 730 Sent 13th_Lagrasse_1426]: [L3 WARNING pron-det-without-prontype] The word 'ma' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+Warnings: 119
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang pro --max-err=10 UD_Old_Occitan-CronOc/pro_cronoc-ud-train.conllu
+[Line 88 Sent 13th_Lagrasse_2]: [L3 WARNING pron-det-without-prontype] The word 'Nostre' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 115 Sent 13th_Lagrasse_3]: [L3 WARNING pron-det-without-prontype] The word 'son' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 227 Sent 13th_Lagrasse_5]: [L3 WARNING pron-det-without-prontype] The word 'son' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 484 Sent 13th_Lagrasse_12]: [L3 WARNING pron-det-without-prontype] The word 'vostre' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 535 Sent 13th_Lagrasse_15]: [L3 WARNING pron-det-without-prontype] The word 'lor' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1052 Sent 13th_Lagrasse_32]: [L3 WARNING pron-det-without-prontype] The word 'nostres' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1179 Sent 13th_Lagrasse_37]: [L3 WARNING pron-det-without-prontype] The word 'ma' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1191 Sent 13th_Lagrasse_38]: [L3 WARNING pron-det-without-prontype] The word 'ma' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1357 Sent 13th_Lagrasse_42]: [L3 WARNING pron-det-without-prontype] The word 'lor' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1675 Sent 13th_Lagrasse_57]: [L3 WARNING pron-det-without-prontype] The word 'son' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+Warnings: 268
+*** PASSED ***
+Validity: 1
+(weight=0.111111111111111) * (score{features}=0.5) = 0.0555555555555556
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+(weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
+(weight=0.37037037037037) * (score{size}=0.523619346427334) = 0.193933091269383
+(weight=0.0740740740740741) * (score{split}=0.67) = 0.0496296296296296
+(weight=0.111111111111111) * (score{tags}=0.823529411764706) = 0.0915032679738562
+(weight=0.111111111111111) * (score{udeprels}=0.864864864864865) = 0.0960960960960961
+(TOTAL score=0.604001591141804) * (availability=1) * (validity=1) = 0.604001591141804
+STARS = 3
+UD_Old_Occitan-CronOc	0.604001591141804	3
